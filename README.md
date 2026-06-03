@@ -1,3 +1,4 @@
+#!/bin/bash
 wget -o /tmp/installation.sh 
 https://raw.githubusercontent.com/Rohitchoudhary7060/jenkins-script-file.git/main/installation.sh
 
