@@ -14,7 +14,7 @@ sudo apt install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo docker pull rohit7060/sonarqube:latest
-docker run -it --name sonarqube -p 9000:9000 rohit7060/sonarqube:latest
+sudo docker run -d --name sonarqube -p 9000:9000 rohit7060/sonarqube:latest
 sudo apt update -y
 sudo apt install nodejs npm -y
 
