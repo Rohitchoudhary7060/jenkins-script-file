@@ -11,7 +11,9 @@ sudo apt install jenkins -y
 sudo apt install maven -y
 sudo apt update -y
 sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
 docker run -it --name sonarqube -p 9000:9000 sonarqube:latest
 sudo apt update -y
-sudo apt install nodejs npm
+sudo apt install nodejs npm -y
 
